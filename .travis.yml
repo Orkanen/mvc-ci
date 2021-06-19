@@ -9,6 +9,3 @@ before_script:
 
 script:
   - XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-xml build
-  - XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-text build
-  - XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-html build
-  - XDEBUG_MODE=coverage ./vendor/bin/phpunit --coverage-clover build/clover.xml
